@@ -2,6 +2,7 @@ package hr.fer.rodjo.matrix;
 
 public class Calc {
 
+	//nemam pojma kaj sam ovom funkcijom htio postići, vidi se da je nedovršena
 	public static int zajDjelitelj(double[][] matrix, int size, int indeks) {
 		int zajDjel = 1;
 		double najveci = 0;
@@ -70,7 +71,7 @@ public class Calc {
 			if(i == red) continue;
 			else {
 				for (int j = 0; j < size + 1; j++) {
-					matrix[i][j] -= (matrix[red][j]*matrix[i][indeks]);
+					matrix[i][j] -= (matrix[red][j]*mnoz);
 				}
 			}
 			
