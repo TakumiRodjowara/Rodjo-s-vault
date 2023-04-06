@@ -1,6 +1,6 @@
 #include<stdio.h>
 #define nah !
-#define sussin ?
+#define sus ?
 #define rn ;
 #define cap false
 #define fr long
