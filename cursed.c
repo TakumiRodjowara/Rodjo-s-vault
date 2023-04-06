@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define no !
+#define nah !
 #define sussin ?
 #define rn ;
 #define cap false
